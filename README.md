@@ -16,6 +16,12 @@ POC_ESX_UPDATE :
 - Maj ESX Script (pas sur)
 - Update ESX Script (not sure)
 
+Lastconnexion :
+
+- Permet de définir la dernière date de connexion dun joueur
+- Register the last connexion from a player (date format)
+
+
 ## Ambulance
 Revive :
 
