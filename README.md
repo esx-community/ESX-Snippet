@@ -75,4 +75,4 @@ Notification Image :
 NoDrivingCopCar :
 
 - Désactive la possibilité de conduire des voiture de police si non flic
-- Simple disable people from driving police cars if not a police
+- Simple disable people from driving police cars if not cop
