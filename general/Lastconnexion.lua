@@ -21,6 +21,7 @@ ____________________________________________________________________________
 RegisterNetEvent('esx:playerLoaded')
 AddEventHandler('esx:playerLoaded', function(xPlayer)
   TriggerServerEvent("esx:updateConnexion")
+end)
 
 
 
