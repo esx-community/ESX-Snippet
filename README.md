@@ -76,3 +76,8 @@ NoDrivingCopCar :
 
 - Désactive la possibilité de conduire des voiture de police si non flic
 - Simple disable people from driving police cars if not cop
+
+ArmedRobery :
+
+- If you want to rob a shop you have to be armed!
+- Vous devez être armé pour braquer une superette 
