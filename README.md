@@ -21,6 +21,11 @@ Lastconnexion :
 - Permet de définir la dernière date de connexion dun joueur
 - Register the last connexion from a player (date format)
 
+DeleteCharacter :
+
+- Supprime un joueur tout a fait de la base de donnée
+- Deletes a player 's character completely from database
+
 
 ## Ambulance
 Revive :
