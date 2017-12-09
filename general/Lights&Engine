@@ -1,0 +1,17 @@
+------------------------------
+--         Chubbs           --
+------------------------------
+
+
+Citizen.CreateThread( function()
+    while true do 
+        Citizen.Wait( 0 ) 
+        local ped = GetPlayerPed(-1)
+        local veh = GetVehiclePedIsIn(ped, true)
+        SetVehicleLights(veh, 2)
+        SetVehicleEngineOn(veh, true, true)
+    end
+end)
+
+
+-- just some simple natives for setting the headlights to stay on when you get out of your vehicle, you can add a timer or do whatever to it :)
