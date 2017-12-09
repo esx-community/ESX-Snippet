@@ -7,7 +7,6 @@ DELETE FROM billing WHERE sender = 'steam:110000xxxxxx';
 DELETE FROM datastore_data WHERE owner = 'steam:110000xxxxxx';
 DELETE FROM owned_properties WHERE owner = 'steam:110000xxxxxx';
 DELETE FROM owned_vehicles WHERE owner = 'steam:110000xxxxxx';
-DELETE FROM owned_airvehicles WHERE owner = 'steam:110000xxxxxx';
 DELETE FROM playersTattoos WHERE identifier = 'steam:110000xxxxxx';
 DELETE FROM rented_vehicles WHERE owner = 'steam:110000xxxxxx';
 DELETE FROM user_accounts WHERE identifier = 'steam:110000xxxxxx';
