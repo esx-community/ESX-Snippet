@@ -1,7 +1,7 @@
 --[[
 ----------------------------------------------------------------------------
 ____________________________________________________________________________
-						
+
 						AUTHOR : El Nelyo
 
 			Supprimer permis Armes/ Véhicules pour le menu police
@@ -11,7 +11,7 @@ ____________________________________________________________________________
 [...] : You just have to add these lines in the police menu
 
 ____________________________________________________________________________
-						
+
 ---------------------------------------------------------------------------
 ]]--
 
@@ -26,18 +26,13 @@ ____________________________________________________________________________
             },
           },
           function(data2, menu2)
-           
+
 
             local player, distance = ESX.Game.GetClosestPlayer()
 
             if distance ~= -1 and distance <= 3.0 then
-             
-                  if data2.current.value == 'license_see' then
-                  TriggerServerEvent('esx_policejob:license_see', GetPlayerServerId(player))
 
-              end
-
-               if data2.current.value == 'license_weapon_remove' then
+            if data2.current.value == 'license_weapon_remove' then
                   TriggerServerEvent('esx_policejob:deletelicense', GetPlayerServerId(player), 'weapon')
 
               end
@@ -77,7 +72,7 @@ function deleteLicense(owner, license)
     })
     print('Permis suppr - '..owner)
     print('Permis suppr - '..license)
-  
+
 end
 
 
@@ -110,13 +105,11 @@ AddEventHandler('esx_policejob:deletelicense', function(target, license)
 
   local identifier = GetPlayerIdentifiers(target)[1]
 
- 
+
 
   deleteLicense(identifier,license)
 
 
- 
+
 
 end)
-
-
