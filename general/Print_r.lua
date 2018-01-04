@@ -3,7 +3,7 @@
 ____________________________________________________________________________
 
 			1) AUTHOR : robmiracle (Github)
-      2) AUTHOR : Sylundef
+      2) AUTHOR : https://stackoverflow.com/questions/9168058/how-to-dump-a-table-to-console
 
 			1) Fonction print_r (style php) 2) print_r simple
 			1) print_r function (php like) 2) print_r simple
