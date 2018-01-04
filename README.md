@@ -26,6 +26,10 @@ DeleteCharacter :
 - Supprime un joueur tout a fait de la base de donnée
 - Deletes a player 's character completely from database
 
+Print_r  :
+
+- 1) Fonction print_r (style php)  2) print_r simple
+- print_r function (php like)  2) print_r simple
 
 ## Ambulance
 Revive :
@@ -37,6 +41,11 @@ Delete license :
 
 - Supprimer permis Armes/ Véhicules pour le menu police
 - Delete licences from police menu
+
+Check License :
+
+- Verification des permis d'armes/vehicules
+- Check license for weapons and vehicles
 
 
 ## Job
@@ -85,4 +94,4 @@ NoDrivingCopCar :
 ArmedRobery :
 
 - If you want to rob a shop you have to be armed!
-- Vous devez être armé pour braquer une superette 
+- Vous devez être armé pour braquer une superette
