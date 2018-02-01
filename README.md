@@ -95,3 +95,13 @@ ArmedRobery :
 
 - If you want to rob a shop you have to be armed!
 - Vous devez être armé pour braquer une superette
+
+NoMoreCopNPC :
+
+- Disable the spawning of NPC cops
+- Désactive le spawn des PNJ flics
+
+NoWeaponReward :
+
+- Remove vehicles giving you weapons
+- Enlève les armes dropée par les véhicules
