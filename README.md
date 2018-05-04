@@ -105,3 +105,10 @@ NoWeaponReward :
 
 - Remove vehicles giving you weapons
 - Enlève les armes dropée par les véhicules
+
+VehicleFall :
+
+- Animation lors d'un saut en voiture
+- Plus notification : Vous étes blésser aller voir un médecin
+- Animation during a car jump
+- More notification: You're going to see a doctor
