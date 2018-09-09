@@ -105,3 +105,7 @@ NoWeaponReward :
 
 - Remove vehicles giving you weapons
 - Enlève les armes dropée par les véhicules
+
+ImprovedStreetDisplay
+- Displays the player's location and where the character is looking at
+- Affiche l'emplacement du joueur et vers où le personnage regarde
