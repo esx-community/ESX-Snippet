@@ -20,19 +20,19 @@ TriggerEvent('es:addGroupCommand', 'revivea', 'user', function(source, args, use
 
 	for i=1, #xPlayers, 1 do
 		local xPlayer = ESX.GetPlayerFromId(xPlayers[i])
-		if xPlayer.getGroup() == 'admin' or xPlayer.getGroup() == 'superadmin' then
+		local group = xPlayer.getGroup()
+		if group == 'admin' or group == 'superadmin' then
 			AdminsConnected = AdminsConnected + 1
-			
 		end
 	end
+
 	if AdminsConnected > 0 then
 		TriggerClientEvent('esx:showNotification', source, "Il y a déjà des admins sur le serveur.")
-	return
-	end
-	
-	if args[2] ~= nil then
-		TriggerClientEvent('esx_ambulancejob:revive', tonumber(args[2]))
 	else
-		TriggerClientEvent('esx_ambulancejob:revive', source)
+		if args[2] ~= nil then
+			TriggerClientEvent('esx_ambulancejob:revive', tonumber(args[2]))
+		else
+			TriggerClientEvent('esx_ambulancejob:revive', source)
+		end
 	end
 end, {help = _U('revive_help'), params = {{name = 'id'}}})

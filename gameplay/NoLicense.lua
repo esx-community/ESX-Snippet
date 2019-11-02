@@ -5,7 +5,7 @@ ____________________________________________________________________________
 						AUTHOR : Dennis (∂єѕαѕтєя)
 
 			Afficher un texte "Vous conduiseez sans permis"
-			Add text "You're driving without a license"
+			Add text "You're driving without a license" to esx_dmvschool
 
 						
 ____________________________________________________________________________
